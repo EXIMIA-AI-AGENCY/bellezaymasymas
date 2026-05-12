@@ -1,13 +1,13 @@
 :root {
-    --primary-color: #ffb6c1; /* Soft Pink */
-    --secondary-color: #ffe4e1; /* Misty Rose */
-    --accent-color: #d18a99; /* Deeper Warm Pink */
-    --text-dark: #4a3b3c;
+    --primary-color: #8bb8ff; /* Soft Blue */
+    --secondary-color: #e6e6fa; /* Light Purple / Lavender */
+    --accent-color: #7b68ee; /* Medium Slate Blue/Purple */
+    --text-dark: #2a2b3c;
     --text-light: #ffffff;
-    --bg-color: #fffafb; /* Very light warm white */
+    --bg-color: #f4f5fa; /* Very light cool blue/purple white */
     --bg-secondary: #ffffff;
     --transition-speed: 0.3s;
-    --shadow: 0 10px 30px rgba(209, 138, 153, 0.15);
+    --shadow: 0 10px 30px rgba(123, 104, 238, 0.15);
 }
 
 * {
@@ -138,13 +138,13 @@ h1, h2, h3, h4, .logo {
     font-weight: 600;
     font-size: 1.1rem;
     transition: all var(--transition-speed);
-    box-shadow: 0 4px 15px rgba(209, 138, 153, 0.4);
+    box-shadow: 0 4px 15px rgba(123, 104, 238, 0.4);
 }
 
 .cta-button:hover {
-    background-color: #bf7383;
+    background-color: #5d4ae6;
     transform: translateY(-3px);
-    box-shadow: 0 6px 20px rgba(209, 138, 153, 0.6);
+    box-shadow: 0 6px 20px rgba(123, 104, 238, 0.6);
 }
 
 .hero-image-container {
@@ -261,7 +261,7 @@ h1, h2, h3, h4, .logo {
     border-radius: 15px;
     text-align: center;
     transition: all var(--transition-speed);
-    border: 1px solid rgba(255, 182, 193, 0.3);
+    border: 1px solid rgba(139, 184, 255, 0.3);
 }
 
 .product-item:hover {
