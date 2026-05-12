@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Belleza y Mas y Mas - Tienda de Maquillaje</title>
+    <meta name="description" content="Tu destino favorito para maquillaje premium. Tonos cálidos, elegancia y calidad en Belleza y Mas y Mas.">
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&family=Playfair+Display:ital,wght@0,400;0,600;1,400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="logo">Belleza y Mas y Mas</div>
+        <ul class="nav-links">
+            <li><a href="#inicio">Inicio</a></li>
+            <li><a href="#categorias">Categorías</a></li>
+            <li><a href="#destacados">Destacados</a></li>
+            <li><a href="#contacto">Contacto</a></li>
+        </ul>
+        <div class="burger">
+            <div class="line1"></div>
+            <div class="line2"></div>
+            <div class="line3"></div>
+        </div>
+    </nav>
+
+    <header id="inicio" class="hero">
+        <div class="hero-content">
+            <h1>Descubre Tu Resplandor Interior</h1>
+            <p>Explora nuestra colección premium de maquillaje diseñada para resaltar tu belleza natural con tonos cálidos y elegantes.</p>
+            <a href="#categorias" class="cta-button">Ver Colección</a>
+        </div>
+        <div class="hero-image-container">
+            <img src="assets/makeup_hero_1778555280135.png" alt="Premium Makeup Collection" class="hero-image">
+        </div>
+    </header>
+
+    <section id="categorias" class="sections-container">
+        <h2 class="section-title">Explora por Categorías</h2>
+        <div class="categories-grid">
+            <div class="category-card" data-category="rostro">
+                <div class="card-overlay"></div>
+                <h3>Rostro</h3>
+                <p>Bases, correctores y rubores</p>
+            </div>
+            <div class="category-card has-bg" style="background-image: url('assets/makeup_eyes_1778555328246.png')" data-category="ojos">
+                <div class="card-overlay"></div>
+                <h3>Ojos</h3>
+                <p>Sombras, delineadores y máscaras</p>
+            </div>
+            <div class="category-card has-bg" style="background-image: url('assets/makeup_lips_1778555304393.png')" data-category="labios">
+                <div class="card-overlay"></div>
+                <h3>Labios</h3>
+                <p>Labiales, brillos y delineadores</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="destacados" class="sections-container featured-section">
+        <h2 class="section-title">Productos Destacados</h2>
+        <div class="products-carousel">
+            <div class="product-item">
+                <div class="product-image-wrapper">
+                    <img src="assets/makeup_lips_1778555304393.png" alt="Labial Rosa Elegante">
+                </div>
+                <h4>Labial Velvet Rose</h4>
+                <p class="price">$24.00</p>
+                <button class="add-to-cart">Añadir al Carrito</button>
+            </div>
+            <div class="product-item">
+                <div class="product-image-wrapper">
+                    <img src="assets/makeup_eyes_1778555328246.png" alt="Paleta de Sombras">
+                </div>
+                <h4>Paleta Sunset Glow</h4>
+                <p class="price">$45.00</p>
+                <button class="add-to-cart">Añadir al Carrito</button>
+            </div>
+            <div class="product-item">
+                <div class="product-image-wrapper">
+                    <img src="assets/makeup_hero_1778555280135.png" alt="Kit de Maquillaje">
+                </div>
+                <h4>Kit Belleza Total</h4>
+                <p class="price">$89.00</p>
+                <button class="add-to-cart">Añadir al Carrito</button>
+            </div>
+        </div>
+    </section>
+
+    <section class="banner-promo">
+        <div class="promo-text">
+            <h2>Brilla con Confianza</h2>
+            <p>Únete a nuestro boletín y obtén un 15% de descuento en tu primera compra.</p>
+            <form class="newsletter-form">
+                <input type="email" placeholder="Tu correo electrónico" required>
+                <button type="submit">Suscribirme</button>
+            </form>
+        </div>
+    </section>
+
+    <footer id="contacto">
+        <div class="footer-content">
+            <div class="footer-brand">
+                <h3>Belleza y Mas y Mas</h3>
+                <p>Tu tienda de confianza para realzar tu belleza.</p>
+            </div>
+            <div class="footer-links">
+                <h4>Enlaces Rápidos</h4>
+                <ul>
+                    <li><a href="#inicio">Inicio</a></li>
+                    <li><a href="#categorias">Categorías</a></li>
+                    <li><a href="#destacados">Destacados</a></li>
+                </ul>
+            </div>
+            <div class="footer-contact">
+                <h4>Contacto</h4>
+                <p>Email: hola@bellezaymasymas.com</p>
+                <p>Tel: +1 234 567 890</p>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2026 Belleza y Mas y Mas. Todos los derechos reservados.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
